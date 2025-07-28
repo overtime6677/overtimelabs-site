@@ -16,6 +16,7 @@ export default function ContactPage() {
         <iframe
           src={process.env.NEXT_PUBLIC_CAL_URL || "https://cal.com/overtimelabs"}
           className="w-full h-[800px] rounded-2xl border border-white/10"
+          title="Calendar booking widget"
         />
       </div>
     </main>

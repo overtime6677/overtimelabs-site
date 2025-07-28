@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+body { @apply bg-[#241737] text-white antialiased; }
+a { @apply underline-offset-4 hover:underline; }
+.container { @apply max-w-6xl mx-auto px-6; }
+.btn { @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-medium bg-cyan-400 text-black hover:brightness-110; }
+.btn-outline { @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-medium ring-1 ring-white/20 hover:bg-white/5; }
+.card { @apply rounded-2xl bg-white/5 ring-1 ring-white/10 p-6; }
